@@ -23,11 +23,7 @@ public class MyFirstTest {
     }
     @Test
     public void myFirstTest(){
-        driver.get("http://www.google.com");
-        driver.findElement(By.name("q")).sendKeys("webDriver");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.findElement(By.name("btnK")).click();
-        wait.until(titleIs("webDriver - Szukaj w Google"));
+        driver.get("http://www.facebook.com");
     }
     @After
     public void stop(){
