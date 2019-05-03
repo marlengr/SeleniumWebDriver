@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="logIn" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-03T09:12:33" hostname="Kordian-PC" time="11.081">
+<testsuite name="logIn" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-03T09:54:43" hostname="Kordian-PC" time="14.008">
   <properties/>
-  <testcase name="test" classname="logIn" time="11.081"/>
+  <testcase name="test" classname="logIn" time="14.008"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 39063
+  <system-err><![CDATA[Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 18688
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-maj 03, 2019 11:12:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+maj 03, 2019 11:54:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
 </testsuite>
