@@ -4,8 +4,9 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-//import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.ie.*;
 
 import java.util.concurrent.TimeUnit;
 
@@ -17,7 +18,10 @@ public class MyFirstTest {
 
     @Before
     public void start(){
-        System.setProperty("webdriver.chrome.driver", "C://Users/Kordian/driver/chromedriver.exe");
+        //System.setProperty("webdriver.ie.driver", "C://Users/Kordian/driver/IEDriverServer.exe");
+        //driver = new InternetExplorerDriver();
+        //wait = new WebDriverWait(driver, 10);
+        //System.setProperty("webdriver.chrome.driver", "C://Users/Kordian/driver/chromedriver.exe");
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, 10);
     }
