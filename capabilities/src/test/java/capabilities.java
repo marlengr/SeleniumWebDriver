@@ -35,6 +35,7 @@ public class capabilities {
     public void myFirstTest(){
         driver.get("http://www.facebook.com");
     }
+
     @After
     public void stop(){
         driver.quit();
