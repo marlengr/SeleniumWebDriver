@@ -27,14 +27,14 @@ public class exercise9b {
     }
 
     @Test
-    public void checkZonesSorting() {
+    public void checkListOfZones() {
+        List<WebElement> listOfCountries = driver.findElements((By.xpath("//tr/td[3]/a[contains(@href,'geo')]")));
 
-        int countriesSize = driver.findElements((By.xpath("//tr/td[3]/a[contains(@href,'geo')]"))).size();
-        for (int i = 0; i < countriesSize; i++) {
+        for (int i = 0; i < listOfCountries.size(); i++) {
 
-            List<WebElement> listOfCountries = driver.findElements((By.xpath("//tr/td[3]/a[contains(@href,'geo')]")));
-            listOfCountries.get(i).getText();
-            listOfCountries.get(i).click();
+            List<WebElement> listOfCountriesInside = driver.findElements((By.xpath("//tr/td[3]/a[contains(@href,'geo')]")));
+            listOfCountriesInside.get(i).getText();
+            listOfCountriesInside.get(i).click();
             List<WebElement> geoZones = driver.findElements(By.cssSelector("[name*=zone_code]"));
             List<String> sortedGeoZoneList = new ArrayList<String>();
 
