@@ -80,13 +80,13 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/exercise9.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="60" column="100" selection-start-line="60" selection-start-column="100" selection-end-line="60" selection-end-column="100" />
+              <caret line="60" column="106" selection-start-line="60" selection-start-column="106" selection-end-line="60" selection-end-column="106" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1373#1381#0" expanded="true" />
                 <element signature="e#2834#2842#0" expanded="true" />
                 <element signature="e#3130#3138#0" expanded="true" />
-                <element signature="e#3493#3494#0" expanded="true" />
+                <element signature="e#3500#3501#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -308,12 +308,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="exercise9 - 2019.05.14 at 16h 41m 35s.xml">
-      <configuration name="exercise9" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="exercise9 - 2019.05.14 at 16h 42m 48s.xml">
-      <configuration name="exercise9" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="exercise9 - 2019.05.14 at 16h 45m 38s.xml">
       <configuration name="exercise9" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -338,6 +332,12 @@
     <history-entry file="exercise9 - 2019.05.14 at 17h 16m 11s.xml">
       <configuration name="exercise9" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="exercise9 - 2019.05.14 at 17h 19m 29s.xml">
+      <configuration name="exercise9" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="exercise9 - 2019.05.14 at 17h 20m 11s.xml">
+      <configuration name="exercise9" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -351,8 +351,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2667758" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39934534" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2667758" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -553,13 +553,13 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/exercise9.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="60" column="100" selection-start-line="60" selection-start-column="100" selection-end-line="60" selection-end-column="100" />
+          <caret line="60" column="106" selection-start-line="60" selection-start-column="106" selection-end-line="60" selection-end-column="106" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1373#1381#0" expanded="true" />
             <element signature="e#2834#2842#0" expanded="true" />
             <element signature="e#3130#3138#0" expanded="true" />
-            <element signature="e#3493#3494#0" expanded="true" />
+            <element signature="e#3500#3501#0" expanded="true" />
           </folding>
         </state>
       </provider>

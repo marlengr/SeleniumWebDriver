@@ -58,7 +58,7 @@ public class exercise9 {
                 List<String> numberOfZoneInCountryString = new ArrayList<String>();
 
                 for (int j = 0; j < numberOfZoneInCountry.size(); j++) {
-                    numberOfZoneInCountryString.add(numberOfZoneInCountry.get(j).getAttribute("data"));
+                    numberOfZoneInCountryString.add(numberOfZoneInCountry.get(j).getAttribute("textContent"));
                 }
                 System.out.println(numberOfZoneInCountryString);
                 List<String> sortedNumberOfZone = new ArrayList<String>(numberOfZoneInCountryString);
