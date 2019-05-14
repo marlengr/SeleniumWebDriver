@@ -79,14 +79,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/exercise9.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="57" column="91" lean-forward="true" selection-start-line="57" selection-start-column="91" selection-end-line="57" selection-end-column="91" />
+            <state relative-caret-position="200">
+              <caret line="60" column="100" selection-start-line="60" selection-start-column="100" selection-end-line="60" selection-end-column="100" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1373#1381#0" expanded="true" />
-                <element signature="e#2829#2837#0" expanded="true" />
-                <element signature="e#2462#2463#0" expanded="true" />
-                <element signature="e#2491#2492#0" expanded="true" />
+                <element signature="e#2834#2842#0" expanded="true" />
+                <element signature="e#3130#3138#0" expanded="true" />
+                <element signature="e#3493#3494#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -308,34 +308,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="exercise9 - 2019.05.13 at 21h 33m 42s.xml">
+    <history-entry file="exercise9 - 2019.05.14 at 16h 41m 35s.xml">
       <configuration name="exercise9" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="exercise9 - 2019.05.13 at 21h 43m 50s.xml">
+    <history-entry file="exercise9 - 2019.05.14 at 16h 42m 48s.xml">
       <configuration name="exercise9" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="exercise9 - 2019.05.13 at 21h 46m 24s.xml">
+    <history-entry file="exercise9 - 2019.05.14 at 16h 45m 38s.xml">
       <configuration name="exercise9" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="exercise9 - 2019.05.13 at 21h 47m 42s.xml">
+    <history-entry file="exercise9 - 2019.05.14 at 16h 48m 06s.xml">
       <configuration name="exercise9" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="exercise9 - 2019.05.13 at 21h 50m 58s.xml">
+    <history-entry file="exercise9 - 2019.05.14 at 16h 51m 57s.xml">
       <configuration name="exercise9" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="exercise9 - 2019.05.13 at 21h 55m 13s.xml">
+    <history-entry file="exercise9 - 2019.05.14 at 16h 54m 22s.xml">
       <configuration name="exercise9" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="exercise9 - 2019.05.13 at 21h 59m 46s.xml">
+    <history-entry file="exercise9 - 2019.05.14 at 17h 00m 47s.xml">
       <configuration name="exercise9" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="exercise9 - 2019.05.13 at 22h 01m 08s.xml">
+    <history-entry file="exercise9 - 2019.05.14 at 17h 03m 52s.xml">
       <configuration name="exercise9" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="exercise9 - 2019.05.13 at 22h 01m 46s.xml">
+    <history-entry file="exercise9 - 2019.05.14 at 17h 07m 07s.xml">
       <configuration name="exercise9" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="exercise9 - 2019.05.13 at 22h 03m 36s.xml">
+    <history-entry file="exercise9 - 2019.05.14 at 17h 16m 11s.xml">
       <configuration name="exercise9" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
@@ -351,8 +351,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2667758" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2667758" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -360,6 +360,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.29787233" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -372,6 +373,28 @@
     </layout>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/exercise9.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/exercise9.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/exercise9.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Remote">
         <watch expression="this" />
@@ -380,6 +403,9 @@
         <watch expression="getCountriesForZone" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SeleniumWebDriver$exercise9.ic" NAME="exercise9 Coverage Results" MODIFIED="1557843785174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/firefoxNightly/firefoxNightly.java" />
@@ -473,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/capabilities.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -500,13 +519,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/exercise7.java">
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="141">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -514,6 +530,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/exercise7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -526,14 +552,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/exercise9.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="57" column="91" lean-forward="true" selection-start-line="57" selection-start-column="91" selection-end-line="57" selection-end-column="91" />
+        <state relative-caret-position="200">
+          <caret line="60" column="100" selection-start-line="60" selection-start-column="100" selection-end-line="60" selection-end-column="100" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1373#1381#0" expanded="true" />
-            <element signature="e#2829#2837#0" expanded="true" />
-            <element signature="e#2462#2463#0" expanded="true" />
-            <element signature="e#2491#2492#0" expanded="true" />
+            <element signature="e#2834#2842#0" expanded="true" />
+            <element signature="e#3130#3138#0" expanded="true" />
+            <element signature="e#3493#3494#0" expanded="true" />
           </folding>
         </state>
       </provider>

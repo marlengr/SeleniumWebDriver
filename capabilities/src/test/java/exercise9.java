@@ -20,7 +20,7 @@ public class exercise9 {
     private WebDriver driver;
 
     @Before
-    public void before(){
+    public void before() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
@@ -30,10 +30,10 @@ public class exercise9 {
     }
 
     @Test
-    public void checkListOfCountries(){
-        List <WebElement> getCountries = driver.findElements((By.xpath("//tr/td[5]/a[contains(@href,'countries')]")));
+    public void checkListOfCountries() {
+        List<WebElement> getCountries = driver.findElements((By.xpath("//tr/td[5]/a[contains(@href,'countries')]")));
         //convert to list<string>
-        List <String> listOfCountries = getCountries.stream().map(WebElement::getText).collect(Collectors.toList());
+        List<String> listOfCountries = getCountries.stream().map(WebElement::getText).collect(Collectors.toList());
         //convert to ArrayList
         Collections.sort(listOfCountries);
         List<String> sortedCountries = new ArrayList<String>(listOfCountries);
@@ -41,19 +41,26 @@ public class exercise9 {
         Assert.assertEquals(listOfCountries, sortedCountries);
 
         //zapisanie do listy webElementow strefy dla państw, parsowanie na string, parsowanie na int, pobranie panstw jeszcze raz
-        List <WebElement> numberOfZone = driver.findElements((By.xpath("//tr/td[6]")));
-        List <String> listOfZones = numberOfZone.stream().map(WebElement::getText).collect(Collectors.toList());
-        List <Integer> intListOfZones = listOfZones.stream().map(Integer::parseInt).collect(Collectors.toList());
+        List<WebElement> numberOfZone = driver.findElements((By.xpath("//tr/td[6]")));
+        List<String> listOfZones = numberOfZone.stream().map(WebElement::getText).collect(Collectors.toList());
+        List<Integer> intListOfZones = listOfZones.stream().map(Integer::parseInt).collect(Collectors.toList());
 
 
         // sprawdzenie liczby zone dla danego kraju, klikniecie w kraj jeśli liczba stref > 0, sprawdzenie czy strefy sa alfabetycznie
-        for(int i = 0; i < intListOfZones.size() ; i++ ){
-            List <WebElement> getCountriesForZone = driver.findElements((By.xpath("//tr/td[5]/a[contains(@href,'countries')]")));
-            if(intListOfZones.get(i) > 0){
+        for (int i = 0; i < intListOfZones.size(); i++) {
+            List<WebElement> getCountriesForZone = driver.findElements((By.xpath("//tr/td[5]/a[contains(@href,'countries')]")));
+
+            if (intListOfZones.get(i) > 0) {
                 getCountriesForZone.get(i).click();
                 // POPRAWIC BO CHYBA NIE DZIALA
-                List <WebElement> numberOfZoneInCountry = driver.findElements((By.cssSelector("[id=table-zones] [name^=zones]")));
-                List <String> numberOfZoneInCountryString =  numberOfZoneInCountry.stream().map(WebElement::getText).collect(Collectors.toList());
+                List<WebElement> numberOfZoneInCountry = driver.findElements((By.cssSelector("[id=table-zones] > tbody > tr > td:nth-child(3) > input[type=hidden]")));
+                //List <String> numberOfZoneInCountryString =  numberOfZoneInCountry.stream().map(WebElement::getText).collect(Collectors.toList());
+                List<String> numberOfZoneInCountryString = new ArrayList<String>();
+
+                for (int j = 0; j < numberOfZoneInCountry.size(); j++) {
+                    numberOfZoneInCountryString.add(numberOfZoneInCountry.get(j).getAttribute("data"));
+                }
+                System.out.println(numberOfZoneInCountryString);
                 List<String> sortedNumberOfZone = new ArrayList<String>(numberOfZoneInCountryString);
                 Assert.assertEquals(numberOfZoneInCountryString, sortedNumberOfZone);
                 driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
@@ -63,7 +70,7 @@ public class exercise9 {
     }
 
     @After
-    public void after(){
+    public void after() {
         driver.quit();
     }
 }
