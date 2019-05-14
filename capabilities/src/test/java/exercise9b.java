@@ -1,3 +1,5 @@
+import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -5,6 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -23,21 +27,32 @@ public class exercise9b {
     }
 
     @Test
-    public void checkSortOfGeoZones(){
+    public void checkZonesSorting() {
 
-        List<WebElement> getGeoZones = driver.findElements((By.xpath("//tr/td[3]/a[contains(@href,'geo')]")));
-        List<String> listOfGeoZonesString = getGeoZones.stream().map(WebElement::getText).collect(Collectors.toList());
-        //List<Integer> listOfGeoZonesInt = listOfGeoZonesString.stream().map(Integer::parseInt).collect(Collectors.toList());
+        int countriesSize = driver.findElements((By.xpath("//tr/td[3]/a[contains(@href,'geo')]"))).size();
+        for (int i = 0; i < countriesSize; i++) {
 
-        for (int i = 0; i <= listOfGeoZonesString.size(); i++){
-            List<WebElement> getGeoZonesFor = driver.findElements((By.xpath("//tr/td[3]/a[contains(@href,'geo')]")));
-            getGeoZonesFor.get(i).click();
-            List<WebElement> listOfZonesInGeoZones = driver.findElements((By.cssSelector("#table-zones [name*=zone_code]")));
-            List<String> listOfZonesInGeoZonesString = listOfZonesInGeoZones.stream().map(WebElement::getText).collect(Collectors.toList());
-            System.out.println(listOfZonesInGeoZonesString);
+            List<WebElement> listOfCountries = driver.findElements((By.xpath("//tr/td[3]/a[contains(@href,'geo')]")));
+            listOfCountries.get(i).getText();
+            listOfCountries.get(i).click();
+            List<WebElement> geoZones = driver.findElements(By.cssSelector("[name*=zone_code]"));
+            List<String> sortedGeoZoneList = new ArrayList<String>();
+
+            for (int j = 0; j < geoZones.size(); j++) {
+
+                String geoZoneName = geoZones.get(j).getAttribute("value");
+                sortedGeoZoneList.add(geoZoneName);
+            }
+            driver.get("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones");
+            List<String> geoZoneList = new ArrayList<String>(sortedGeoZoneList);
+            Collections.sort(sortedGeoZoneList);
+            Assert.assertEquals(sortedGeoZoneList, geoZoneList);
         }
+    }
 
-
+    @After
+    public void after(){
+        driver.quit();
     }
 
 }
