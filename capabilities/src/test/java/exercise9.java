@@ -45,20 +45,17 @@ public class exercise9 {
         List<String> listOfZones = numberOfZone.stream().map(WebElement::getText).collect(Collectors.toList());
         List<Integer> intListOfZones = listOfZones.stream().map(Integer::parseInt).collect(Collectors.toList());
 
-
         // sprawdzenie liczby zone dla danego kraju, klikniecie w kraj jeśli liczba stref > 0, sprawdzenie czy strefy sa alfabetycznie
         for (int i = 0; i < intListOfZones.size(); i++) {
             List<WebElement> getCountriesForZone = driver.findElements((By.xpath("//tr/td[5]/a[contains(@href,'countries')]")));
 
             if (intListOfZones.get(i) > 0) {
                 getCountriesForZone.get(i).click();
-                // POPRAWIC BO CHYBA NIE DZIALA
                 List<WebElement> numberOfZoneInCountry = driver.findElements((By.cssSelector("[id=table-zones] > tbody > tr > td:nth-child(3) > input[type=hidden]")));
-                //List <String> numberOfZoneInCountryString =  numberOfZoneInCountry.stream().map(WebElement::getText).collect(Collectors.toList());
                 List<String> numberOfZoneInCountryString = new ArrayList<String>();
 
                 for (int j = 0; j < numberOfZoneInCountry.size(); j++) {
-                    numberOfZoneInCountryString.add(numberOfZoneInCountry.get(j).getAttribute("textContent"));
+                    numberOfZoneInCountryString.add(numberOfZoneInCountry.get(j).getAttribute("value"));
                 }
                 System.out.println(numberOfZoneInCountryString);
                 List<String> sortedNumberOfZone = new ArrayList<String>(numberOfZoneInCountryString);
