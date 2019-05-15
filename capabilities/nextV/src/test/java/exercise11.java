@@ -28,7 +28,7 @@ public class exercise11 {
         driver.findElement(By.name("city")).sendKeys("Opole");
         Select select = new Select(driver.findElement(By.xpath("//select[@name='country_code']")));
         select.selectByVisibleText("Poland");
-        driver.findElement(By.name("email")).sendKeys("annakowalska4455@test.pl");
+        driver.findElement(By.name("email")).sendKeys("annakowalska445566@test.pl");
         driver.findElement(By.name("phone")).sendKeys("500500500");
         driver.findElement(By.name("password")).sendKeys("test1234@");
         driver.findElement(By.name("confirmed_password")).sendKeys("test1234@");
@@ -36,7 +36,7 @@ public class exercise11 {
 
         //logout and login
         driver.findElement(By.xpath("//div[@class='content']//a[contains(text(),'Logout')]")).click();
-        driver.findElement(By.name("email")).sendKeys("annakowalska4455@test.pl");
+        driver.findElement(By.name("email")).sendKeys("annakowalska445566@test.pl");
         driver.findElement(By.name("password")).sendKeys("test1234@");
         driver.findElement(By.name("login")).click();
         driver.findElement(By.xpath("//div[@class='content']//a[contains(text(),'Logout')]")).click();

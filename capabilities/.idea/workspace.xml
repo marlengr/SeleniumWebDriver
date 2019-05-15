@@ -111,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nextV/src/test/java/exercise11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="36" column="80" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
+            <state relative-caret-position="153">
+              <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1938#1939#0" expanded="true" />
@@ -374,9 +374,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="exercise11 - 2019.05.15 at 21h 10m 04s.xml">
-      <configuration name="exercise11" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="exercise11 - 2019.05.15 at 21h 11m 43s.xml">
       <configuration name="exercise11" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -404,6 +401,9 @@
     <history-entry file="exercise11 - 2019.05.15 at 21h 23m 04s.xml">
       <configuration name="exercise11" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="exercise11 - 2019.05.15 at 21h 25m 27s.xml">
+      <configuration name="exercise11" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,7 +415,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26172465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -725,8 +726,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nextV/src/test/java/exercise11.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="36" column="80" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
+        <state relative-caret-position="153">
+          <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1938#1939#0" expanded="true" />
