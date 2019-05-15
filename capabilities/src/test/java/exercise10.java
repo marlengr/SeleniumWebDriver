@@ -26,6 +26,7 @@ public class exercise10 {
         String colorOfFirstPageRegularPrice = driver.findElement(By.xpath("//div[@id='box-campaigns']//s[@class='regular-price']")).getCssValue("color");
         String fontOfFirstPageCampaignPrice = driver.findElement(By.xpath("//div[@id='box-campaigns']//strong[@class='campaign-price']")).getCssValue("font-weight");
         String fontOfFirstPageRegularPrice = driver.findElement(By.xpath("//div[@id='box-campaigns']//s[@class='regular-price']")).getCssValue("text-decoration");
+        String StyleOfFirstPageRegularPrice = driver.findElement(By.xpath("//div[@id='box-campaigns']//s[@class='regular-price']")).getCssValue("style");
 
 
         driver.findElement(By.xpath("//div[@id='box-campaigns']//a[@class='link']")).click();

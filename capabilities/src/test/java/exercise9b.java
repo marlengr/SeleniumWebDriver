@@ -40,9 +40,10 @@ public class exercise9b {
 
             for (int j = 0; j < geoZones.size(); j++) {
 
-                String geoZoneName = geoZones.get(j).getAttribute("value");
+                String geoZoneName = geoZones.get(j).findElement(By.cssSelector("[selected=selected]")).getAttribute("textContent");
                 sortedGeoZoneList.add(geoZoneName);
             }
+            System.out.println(sortedGeoZoneList);
             driver.get("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones");
             List<String> geoZoneList = new ArrayList<String>(sortedGeoZoneList);
             Collections.sort(sortedGeoZoneList);
