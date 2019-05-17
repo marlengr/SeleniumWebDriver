@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="exercise12" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-17T19:15:29" hostname="Kordian-PC" time="16.787">
+  <properties/>
+  <testcase name="addNewArticle" classname="exercise12" time="16.787"/>
+  <system-out><![CDATA[Product_96910
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 40477
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+maj 17, 2019 9:15:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>
