@@ -108,7 +108,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-2" />
     <option name="y" value="2" />
     <option name="width" value="1346" />
@@ -183,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.exercise11">
+  <component name="RunManager" selected="Gradle.exercise12">
     <configuration name="exercise10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -286,8 +286,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.exercise11" />
         <item itemvalue="Gradle.exercise12" />
+        <item itemvalue="Gradle.exercise11" />
         <item itemvalue="Gradle.exercise10" />
         <item itemvalue="Gradle.exercise9b" />
         <item itemvalue="Gradle.exercise9" />
