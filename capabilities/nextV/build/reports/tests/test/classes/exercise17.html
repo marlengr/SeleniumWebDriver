@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class exercise17</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class exercise17</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; exercise17</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">13.479s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="login"></a>
+<h3 class="failures">login</h3>
+<span class="code">
+<pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: unable to send message to renderer
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'KORDIAN-PC', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\Kordian\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:27955}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: bb5059fee43b862c481586143b4fa886
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:81)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at exercise17.login(exercise17.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">login</td>
+<td class="failures">13.479s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2019-06-04T19:35:57+0200] [INFO] {&quot;message&quot;:{&quot;method&quot;:&quot;Page.frameAttached&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;782C45BE737A24937B8FB4AA3BB0D233&quot;,&quot;parentFrameId&quot;:&quot;69DF1FDD344A4B23ECE3B3DA6540D931&quot;,&quot;stack&quot;:{&quot;callFrames&quot;:[{&quot;columnNumber&quot;:125,&quot;functionName&quot;:&quot;&quot;,&quot;lineNumber&quot;:0,&quot;scriptId&quot;:&quot;15&quot;,&quot;url&quot;:&quot;&quot;}]}}},&quot;webview&quot;:&quot;69DF1FDD344A4B23ECE3B3DA6540D931&quot;}
+[2019-06-04T19:35:57+0200] [INFO] {&quot;message&quot;:{&quot;method&quot;:&quot;Page.frameStartedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;782C45BE737A24937B8FB4AA3BB0D233&quot;}},&quot;webview&quot;:&quot;69DF1FDD344A4B23ECE3B3DA6540D931&quot;}
+[2019-06-04T19:35:57+0200] [INFO] {&quot;message&quot;:{&quot;method&quot;:&quot;Page.frameNavigated&quot;,&quot;params&quot;:{&quot;frame&quot;:{&quot;id&quot;:&quot;782C45BE737A24937B8FB4AA3BB0D233&quot;,&quot;loaderId&quot;:&quot;42E065B439010FAD9C10EF5560A8F6AB&quot;,&quot;mimeType&quot;:&quot;text/html&quot;,&quot;name&quot;:&quot;chromedriver dummy frame&quot;,&quot;parentId&quot;:&quot;69DF1FDD344A4B23ECE3B3DA6540D931&quot;,&quot;securityOrigin&quot;:&quot;://&quot;,&quot;url&quot;:&quot;about:blank&quot;}}},&quot;webview&quot;:&quot;69DF1FDD344A4B23ECE3B3DA6540D931&quot;}
+[2019-06-04T19:35:57+0200] [INFO] {&quot;message&quot;:{&quot;method&quot;:&quot;Page.frameStoppedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;782C45BE737A24937B8FB4AA3BB0D233&quot;}},&quot;webview&quot;:&quot;69DF1FDD344A4B23ECE3B3DA6540D931&quot;}
+[2019-06-04T19:35:57+0200] [INFO] {&quot;message&quot;:{&quot;method&quot;:&quot;Page.frameDetached&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;782C45BE737A24937B8FB4AA3BB0D233&quot;}},&quot;webview&quot;:&quot;69DF1FDD344A4B23ECE3B3DA6540D931&quot;}
+[2019-06-04T19:35:57+0200] [INFO] {&quot;message&quot;:{&quot;method&quot;:&quot;Network.requestWillBeSent&quot;,&quot;params&quot;:{&quot;documentURL&quot;:&quot;http://localhost/litecart/admin/?app=catalog&amp;doc=catalog&amp;category_id=1&quot;,&quot;frameId&quot;:&quot;69DF1FDD344A4B23ECE3B3DA6540D931&quot;,&quot;hasUserGesture&quot;:false,&quot;initiator&quot;:{&quot;type&quot;:&quot;other&quot;},&quot;loaderId&quot;:&quot;FD1BE87834DFF8B587AC368D6607AD19&quot;,&quot;request&quot;:{&quot;headers&quot;:{&quot;Upgrade-Insecure-Requests&quot;:&quot;1&quot;,&quot;User-Agent&quot;:&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36&quot;},&quot;initialPriority&quot;:&quot;VeryHigh&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;mixedContentType&quot;:&quot;none&quot;,&quot;referrerPolicy&quot;:&quot;no-referrer-when-downgrade&quot;,&quot;url&quot;:&quot;http://localhost/litecart/admin/?app=catalog&amp;doc=catalog&amp;category_id=1&quot;},&quot;requestId&quot;:&quot;FD1BE87834DFF8B587AC368D6607AD19&quot;,&quot;timestamp&quot;:1741216.31763,&quot;type&quot;:&quot;Document&quot;,&quot;wallTime&quot;:1559669757.528879}},&quot;webview&quot;:&quot;69DF1FDD344A4B23ECE3B3DA6540D931&quot;}
+[2019-06-04T19:35:58+0200] [INFO] {&quot;message&quot;:{&quot;method&quot;:&quot;Network.requestWillBeSent&quot;,&quot;params&quot;:{&quot;documentURL&quot;:&quot;http://localhost/litecart/admin/login.php?redirect_url=%2Flitecart%2Fadmin%2F%3Fapp%3Dcatalog%26doc%3Dcatalog%26category_id%3D1&quot;,&quot;frameId&quot;:&quot;69DF1FDD344A4B23ECE3B3DA6540D931&quot;,&quot;hasUserGesture&quot;:false,&quot;initiator&quot;:{&quot;type&quot;:&quot;other&quot;},&quot;loaderId&quot;:&quot;FD1BE87834DFF8B587AC368D6607AD19&quot;,&quot;redirectResponse&quot;:{&quot;connectionId&quot;:26,&quot;connectionReused&quot;:true,&quot;encodedDataLength&quot;:937,&quot;fromDiskCache&quot;:false,&quot;fromServiceWorker&quot;:false,&quot;headers&quot;:{&quot;Cache-Control&quot;:&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;,&quot;Connection&quot;:&quot;Keep-Alive&quot;,&quot;Content-Language&quot;:&quot;en&quot;,&quot;Content-Length&quot;:&quot;0&quot;,&quot;Content-Type&quot;:&quot;text/html; charset=UTF-8&quot;,&quot;Date&quot;:&quot;Tue, 04 Jun 2019 17:35:58 GMT&quot;,&quot;Expires&quot;:&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;,&quot;Keep-Alive&quot;:&quot;timeout=5, max=100&quot;,&quot;Location&quot;:&quot;http://localhost/litecart/admin/login.php?redirect_url=%2Flitecart%2Fadmin%2F%3Fapp%3Dcatalog%26doc%3Dcatalog%26category_id%3D1&quot;,&quot;Pragma&quot;:&quot;no-cache&quot;,&quot;Server&quot;:&quot;Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15&quot;,&quot;Set-Cookie&quot;:&quot;LCSESSID=q84caspb85c58bmfmbntjbgvj7; path=/litecart/\nlanguage_code=en; expires=Thu, 04-Jul-2019 17:35:58 GMT; Max-Age=2592000; path=/litecart/\ncart[uid]=5cf6abfe493aa; expires=Thu, 04-Jun-2020 17:35:58 GMT; Max-Age=31622400; path=/litecart/\ncurrency_code=USD; expires=Thu, 04-Jul-2019 17:35:58 GMT; Max-Age=2592000; path=/litecart/&quot;,&quot;X-Powered-By&quot;:&quot;LiteCart&quot;},&quot;headersText&quot;:&quot;HTTP/1.1 302 Found\r\nDate: Tue, 04 Jun 2019 17:35:58 GMT\r\nServer: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15\r\nX-Powered-By: LiteCart\r\nSet-Cookie: LCSESSID=q84caspb85c58bmfmbntjbgvj7; path=/litecart/\r\nExpires: Thu, 19 Nov 1981 08:52:00 GMT\r\nCache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nPragma: no-cache\r\nSet-Cookie: language_code=en; expires=Thu, 04-Jul-2019 17:35:58 GMT; Max-Age=2592000; path=/litecart/\r\nSet-Cookie: cart[uid]=5cf6abfe493aa; expires=Thu, 04-Jun-2020 17:35:58 GMT; Max-Age=31622400; path=/litecart/\r\nSet-Cookie: currency_code=USD; expires=Thu, 04-Jul-2019 17:35:58 GMT; Max-Age=2592000; path=/litecart/\r\nContent-Language: en\r\nLocation: http://localhost/litecart/admin/login.php?redirect_url=%2Flitecart%2Fadmin%2F%3Fapp%3Dcatalog%26doc%3Dcatalog%26category_id%3D1\r\nContent-Length: 0\r\nKeep-Alive: timeout=5, max=100\r\nConnection: Keep-Alive\r\nContent-Type: text/html; charset=UTF-8\r\n\r\n&quot;,&quot;mimeType&quot;:&quot;text/html&quot;,&quot;protocol&quot;:&quot;http/1.1&quot;,&quot;remoteIPAddress&quot;:&quot;[::1]&quot;,&quot;remotePort&quot;:80,&quot;requestHeaders&quot;:{&quot;Accept&quot;:&quot;text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3&quot;,&quot;Accept-Encoding&quot;:&quot;gzip, deflate, br&quot;,&quot;Accept-Language&quot;:&quot;pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7&quot;,&quot;Connection&quot;:&quot;keep-alive&quot;,&quot;Host&quot;:&quot;localhost&quot;,&quot;Upgrade-Insecure-Requests&quot;:&quot;1&quot;,&quot;User-Agent&quot;:&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36&quot;},&quot;requestHeadersText&quot;:&quot;GET /litecart/admin/?app=catalog&amp;doc=catalog&amp;category_id=1 HTTP/1.1\r\nHost: localhost\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7\r\n&quot;,&quot;securityState&quot;:&quot;neutral&quot;,&quot;status&quot;:302,&quot;statusText&quot;:&quot;Found&quot;,&quot;timing&quot;:{&quot;connectEnd&quot;:-1,&quot;connectStart&quot;:-1,&quot;dnsEnd&quot;:-1,&quot;dnsStart&quot;:-1,&quot;proxyEnd&quot;:-1,&quot;proxyStart&quot;:-1,&quot;pushEnd&quot;:0,&quot;pushStart&quot;:0,&quot;receiveHeadersEnd&quot;:812.603,&quot;requestTime&quot;:1741216.31861,&quot;sendEnd&quot;:559.166,&quot;sendStart&quot;:558.99,&quot;sslEnd&quot;:-1,&quot;sslStart&quot;:-1,&quot;workerReady&quot;:-1,&quot;workerStart&quot;:-1},&quot;url&quot;:&quot;http://localhost/litecart/admin/?app=catalog&amp;doc=catalog&amp;category_id=1&quot;},&quot;request&quot;:{&quot;headers&quot;:{&quot;Upgrade-Insecure-Requests&quot;:&quot;1&quot;,&quot;User-Agent&quot;:&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36&quot;},&quot;initialPriority&quot;:&quot;VeryHigh&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;mixedContentType&quot;:&quot;none&quot;,&quot;referrerPolicy&quot;:&quot;no-referrer-when-downgrade&quot;,&quot;url&quot;:&quot;http://localhost/litecart/admin/login.php?redirect_url=%2Flitecart%2Fadmin%2F%3Fapp%3Dcatalog%26doc%3Dcatalog%26category_id%3D1&quot;},&quot;requestId&quot;:&quot;FD1BE87834DFF8B587AC368D6607AD19&quot;,&quot;timestamp&quot;:1741217.132753,&quot;type&quot;:&quot;Document&quot;,&quot;wallTime&quot;:1559669758.344003}},&quot;webview&quot;:&quot;69DF1FDD344A4B23ECE3B3DA6540D931&quot;}
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 14941
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+cze 04, 2019 7:35:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at 4 cze 2019, 19:36:07</p>
+</div>
+</div>
+</body>
+</html>
